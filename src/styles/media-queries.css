@@ -375,6 +375,24 @@ footer.disclaimer-premium {
 }
 
 @media screen and (max-width: 411px) {
+    
+.playlist .session {
+        display: none;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    font-size: 10px;
+}
+
+.disclaimer-premium button {
+    font-size: 10px;
+}
+
+footer.disclaimer-premium {
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
     .playlist #greeting {
         font-size: 24px;
     }
