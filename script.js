@@ -44,3 +44,16 @@ document.addEventListener('input', function () {
     
     requestApi(searchTerm);
 })
+
+//INSTALAR SERVIDOR JSON-SERVER
+
+//1)   npm uninstall -g json-server
+
+//2)  npm install -g json-server@0.17.4
+
+//3)   json-server --watch api-artists/artists.json port 3000
+
+//*se der erro no passo 3 executa a função abaixo e depois o passo 2 novamente
+
+//Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+

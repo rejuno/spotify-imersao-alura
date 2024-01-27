@@ -141,7 +141,7 @@
 .offer__list-item {
   display: grid;
   justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*importante: define o espaçamento das colunas*/
+  grid-template-columns: 1fr 1fr 1fr 1fr; /*importante: define o espaçamento das colunas*/
   grid-gap: 16px;
   gap: 16px;
   margin-bottom: 16px;
