@@ -380,7 +380,7 @@ footer.disclaimer-premium {
     }
 
     .playlist .session {
-        font-size: 19px;
+        display: none;
     }
 
     .offer__scroll-container {
