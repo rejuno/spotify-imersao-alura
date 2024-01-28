@@ -1,0 +1,53 @@
+{
+    "en": {
+    "inicio": "Home",
+    "buscar": "Search",
+    "biblioteca": "Your Library",
+    "title": "Create Your First Playlist",
+    "subtitle":"It's easy, we will help you!",
+    "section-playlist__button": "Create Playlist",
+    "language": "English", 
+    "subscribe": "Subscribe",
+    "login": "Login",
+    "greeting": "Welcome!",
+    "session": "Browse all sections",
+    "newyear": "Happy New Year",
+    "fvp": "For You",
+    "lan": "Releases",
+    "training":"Fitness",
+    "country": "Country",
+    "samba": "Samba and Pagode",
+    "latina": "Latin Music",
+    "artist-categorie": "Artist",
+    "disclaimer-premium__title": "Try Premium for free",
+    "disclaimer-premium__subtitle": "Sign up to enjoy unlimited music and podcasts in just a few clicks adverts. No credit card required.",
+    "subs__button": "Subscribe"
+}, 
+
+"pt":{
+    "inicio": "Inicio",
+    "buscar": "Buscar",
+    "biblioteca": "Sua Biblioteca",
+    "title": "Crie sua primeira Playlist",
+    "subtitle":"É Fácil, nós vamos te ajudar",
+    "section-playlist__button": "Criar Playlist",
+    "language": "Português do Brasil", 
+    "subscribe": "Inscreva-se",
+    "login": "Entrar",
+    "greeting": "Boas Vindas",
+    "session": "Navegar por todas as seções",
+    "newyear": "Boas Festas",
+    "fvp": "Feitos para você",
+    "lan": "Lançamentos",
+    "training":"Para Treinar",
+    "country": "Sertanejo",
+    "samba": "Samba e Pagode",
+    "latina": "Musica Latina",
+    "artist-categorie": "Artista",
+    "disclaimer-premium__title": "Testar o Premium de graça",
+    "disclaimer-premium__subtitle": "Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito",
+    "subs__button": "Inscreva-se"
+}
+
+
+}
