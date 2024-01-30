@@ -6,6 +6,8 @@ const resultPlaylist = document.getElementById('result-playlists');
 //para que quando criar arquivos eles estarem imitando um 
 //arquivo hospedado e baixado 
 
+
+
 //Após instalar e colocar os dados da API digitar o seguinte comando no terminal: 
 //json-server --watch api-artists/artists.json --port 3000
 
@@ -44,6 +46,10 @@ document.addEventListener('input', function () {
     
     requestApi(searchTerm);
 })
+
+
+
+
 
 //INSTALAR SERVIDOR JSON-SERVER
 

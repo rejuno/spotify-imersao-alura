@@ -46,7 +46,16 @@
     display: flex;
     align-items: center;
   }
-  
+
+  .header__login .subscribe:hover{
+    color:#1db954
+  }
+
+  .header__login .login:hover {
+    background-color: #1db954;
+  }
+
+
   .header__search {
     display: flex;
     align-items: center;
@@ -56,7 +65,19 @@
     background-color: #242424;
     border-radius: 500px;
     border: 1px solid transparent;
+    border-color: none;
+    border-width: none;
   }
+
+  .header__search.selected {
+    border-color: #1db954;
+    border-width: 1px;
+}
+
+.header__search:hover{
+    border-color: #1db954;
+    border-width: 1px;
+}
   
   .header__search img {
     width: 16px;
@@ -87,6 +108,15 @@
     padding-left: 0px;
   }
   
+  .arrow-right:hover {
+      background-color: #1db954;
+  }
+
+  .arrow-left:hover{
+    background-color: #1db954;
+  }
+
+
   .header__login .login {
     width: 100px;
     height: 48px;
@@ -94,6 +124,7 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+    border: none;
   }
 
   /* PLAYLIST */
@@ -142,7 +173,7 @@
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr; /*importante: define o espaçamento das colunas*/
-  grid-gap: 16px;
+  grid-gap:16px;
   gap: 16px;
   margin-bottom: 16px;
 
@@ -150,7 +181,8 @@
   display: grid;
   gap: 16px;
   grid-gap: 32px;
-  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .cards {
@@ -159,6 +191,11 @@
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
+}
+
+.cards:hover{
+  box-shadow: 10px 10px #b3b3b3;
+  transition-duration: 0.5s;
 }
 
 .cards span {
@@ -173,6 +210,8 @@
 .card1 {
   background-color: rgb(0, 100, 80);
 }
+
+
 .card2 {
   background-color: rgb(132, 0, 231);
 }
@@ -180,13 +219,13 @@
   background: rgb(30, 50, 100);
 }
 .card4 {
-  background: rgb(140, 25, 50);
+  background: rgb(99 62 29);
 }
 .card5 {
   background: rgb(232, 17, 91);
 }
 .card6 {
-  background: rgb(83, 122, 161);
+  background: rgb(124 19 15);
 }
 .card7 {
   background: rgb(142, 102, 172);
@@ -219,10 +258,10 @@
 
 .offer__list-item img {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  bottom: -20px;
   height: auto;
-  width: 107px;
+  width: 150px;
   transform: rotate(25deg) translate(18%, -2%);
 }
 

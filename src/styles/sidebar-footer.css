@@ -37,6 +37,9 @@ body{
 .sidebar ul li{
     padding: 10px 0;
 }
+.sidebar ul li a:hover{
+    color:#00D055;
+}
 
 .sidebar nav ul li a{
     color: #b3b3b3;
@@ -97,6 +100,11 @@ body{
     color:#b3b3b3;
     margin-right: 10px;
     padding-right:8px;
+}
+
+.languages button:hover{
+    color:#00D055;
+    border-color: #00D055;
 }
 
 .library .library__content .fa-plus{
@@ -164,7 +172,8 @@ body{
 }
 
 .sidebar .cookies a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    color:#00D055;
 }
 
 .languages .languages__button{
@@ -217,4 +226,16 @@ body{
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+.subs__button:hover{
+    background-color: #00D055;
+}
+
+.section-playlist__content .section-playlist__button:hover{
+    background-color: #00D055;
+}
+
+#plus:hover{
+    color: #00D055;
 }
