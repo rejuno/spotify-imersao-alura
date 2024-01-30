@@ -41,9 +41,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 Acesse o site pronto neste link [aqui](https://rejuno.github.io/spotify-imersao-alura/)!
 
-<iframe width="560" height="315" src="./read-me-video/spotify.mp4" frameborder="0" allowfullscreen></iframe>
-
-
+https://github.com/rejuno/spotify-imersao-alura/assets/98842524/8c59fe18-9dfe-479b-a39a-a999902f9c45
 
 
 ## 🎁 Expressões de gratidão
